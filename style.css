@@ -1,0 +1,654 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background: #c1b8b6;
+    color: rgb(39, 32, 32);
+    padding: 10px 10px;
+    font-size: 20px;
+
+}
+.contact-info{
+color: red;
+margin-left: 5px;
+}
+.fa-solid{
+    color: red;
+    margin-right: px;
+    margin: 0 10px;
+    
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links a:hover{
+    color: red;
+}
+
+/* Main Navigation Bar */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: red;
+    padding: 15px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: red;
+    border-radius: 5px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: red;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+}
+
+
+////
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+
+body {
+    background-color: #f8f8f8;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: url('ARM2.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(234, 213, 213);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+h1.wellcome {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+//
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.donation-section {
+    padding: 10px;
+}
+
+.title {
+    font-size: 28px;
+    color: red;
+    font-weight: bold;
+}
+
+.donation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.left-content {
+    width: 45%;
+    text-align: center;
+}
+
+.left-content img {
+    width: 80%;
+    max-width: 300px;
+}
+
+.left-content p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.donate-btn {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.right-content h3 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* 📱 Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+    .donation-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+    }
+
+    .left-content img {
+        max-width: 250px;
+    }
+
+    .right-content table {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .donate-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+}
+
+//
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.donation-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 85%;
+    margin: 25px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donation-title {
+    color: #d9534f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.donation-text {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 100%;
+    margin: 5px auto;
+}
+///
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider img {
+    width: 100PX;
+    height: 200%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+////
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8d7da; /* हल्का रेड */
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.text {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.text h1 {
+    font-size: 2.5em;
+    color: #c82333;
+}
+
+.text h2 {
+    font-size: 1.8em;
+    color: #721c24;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.donate-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #c82333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.donate-link:hover {
+    background-color: #a71d2a;
+}
+
+.image img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 58px;
+}
+/* ===== Responsive Design ===== */
+
+/* Tablet (Screen size max 900px) */
+@media (max-width: 900px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text {
+        max-width: 100%;
+    }
+}
+
+/* Mobile (Screen size max 600px) */
+@media (max-width: 600px) {
+    .text h1 {
+        font-size: 2em;
+    }
+    .text h2 {
+        font-size: 1.5em;
+    }
+    .text p {
+        font-size: 1em;
+    }
+    .donate-link {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+/////
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.app-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #ffffff, #e0e0e0);
+    padding: 20px;
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+.text-section h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.text-section p {
+    font-size: 1.5em;
+    color: #555;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+/* ======= Responsive Design ======= */
+
+/* टैबलेट (max-width: 900px) */
+@media (max-width: 900px) {
+    .text-section {
+        max-width: 80%;
+    }
+    .text-section h1 {
+        font-size: 2.5em;
+    }
+    .text-section p {
+        font-size: 1.3em;
+    }
+}
+
+/* मोबाइल (max-width: 600px) */
+@media (max-width: 600px) {
+    .text-section {
+        max-width: 100%;
+    }
+    .text-section h1 {
+        font-size: 2em;
+    }
+    .text-section p {
+        font-size: 1em;
+    }
+    .btn {
+        font-size: 1em;
+        padding: 10px 18px;
+    }
+}
+
+//
+/* Footer Styling */
+.footer {
+    background: white;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    background-color: #f5c2c6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+//////////////
+/* Footer Styling */
+.footer {
+    background: #121212;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 1px;
+    padding: 15px;
+    background: #0d0d0d;
+    color: #bbb;
+    font-size: 0.9
+}
+/////
+body {
+    background-color: #f8f8f8;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 50px;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.arm {
+    color: #D70000;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.highlight {
+    font-size: 32px;
+    color: #8B0000;
+    font-weight: bold;
+}
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #D70000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+/* Footer styles */
+.footer1 {
+    margin-top: 40px;
+    background: #dad4d4;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.arm1{
+    color: #8B0000;
+}
+.footer1 a {
+    color: rgb(21, 19, 19);
+    font-size: 17px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer1 a:hover {
+    color: #D70000;
+}
+
