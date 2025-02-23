@@ -1,4 +1,4 @@
-let images = ["ARMA.JPG", "ARMBB.JPG", "ARMCC.JPG","ARMC.JPG","ARMD.JPG"]; // यहाँ अपनी इमेज लिस्ट डालें
+let images = ["./ARMA.JPG", "./ARMBB.JPG", "./ARMCC.JPG","./ARMC.JPG","./ARMD.JPG"]; // यहाँ अपनी इमेज लिस्ट डालें
 let currentIndex = 0;
 
 function showImage(index) {
